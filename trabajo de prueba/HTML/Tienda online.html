@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda online de patinaje</title>
+    <link rel="stylesheet" href="/CSS/tienda online.css">
+</head>
+<body> 
+    <header>
+        <h1>Tienda online de patinaje</h1>
+</header>
+    <section>
+        <form action="datos.php" method="POST">
+        <fieldset>
+        <!-- Seccion de ingreso nombre -->
+        <label for="tarea">Tarea</label>
+        <nav>
+        <input>
+        </nav>
+        </fieldset>
+        <hr>
+        <br><br>
+        <!-- Seccion de hobbies -->
+        <label>Departamento:
+        </label>
+        <br>
+        <input name="Dpto. Diseño" type="radio" value="Dpto. Diseño" >Dpto. Diseño<br> 
+        <input name="Dpto. Programacion" type="radio" value="Dpto. Programacion" >Dpto. Programacion<br>
+        <input name="Dpto. Marketing" type="radio" value="Dpto. Marketing" >Dpto. Marketing<br>
+        <br>
+        <br>
+        <!-- Persona encargada -->
+        <label>Persona encargada</label><br>
+            <input name="Externo" type="checkbox" value="">Externo<br>
+            <br>
+            
+            <br>
+            <form action="" method="POST" class="form-row mb-4">
+                <div class="col">
+                     <label for="fecha">Fecha de inicio</label>
+                     <input type="date" name="fecha" id="fecha" class="form-control" value="2019-08-09">
+                </div>
+            </form>
+            <form action="" method="POST" class="form-row mb-4">
+                <div class="col">
+                     <label for="fecha">Fecha de finalizacion</label>
+                     <input type="date" name="fecha" id="fecha" class="form-control" value="2019-08-09">
+                </div>
+            </form>
+            <br><br>
+            <label for="Estado de tarea">Estado de tarea</label><br>
+            <input name="Rojo" type="radio" value="Rojo">Rojo 
+            <input name="Amarillo" type="radio" value="Amarillo">Amarillo
+            <input name="Verde" type="radio" value="Verde">Verde 
+            <input name="Azul" type="radio" value="Azul">Azul
+                </select> 
+                <br>
+                <br>
+                <input name="Enviarme una copia de mis respuestas" type="checkbox" value="">Enviarme una copia de mis respuestas<br>
+            <br>
+            </fieldset>
+            <br><br>
+            <!-- Seccion de botones formulario submit : enviar daos cancel: borrar datos ingresados -->
+            <button type="submit">remitir</button>
+            <br>
+            <br>
+            </form> 
+            </section>
+            <!-- Seccion de pajinas -->
+            <footer>
+                Derechos reservados &copy;2022&#64;Paulo 
+            </footer>
+</body>    
+</html>
